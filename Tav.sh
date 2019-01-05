@@ -6,12 +6,18 @@
 	}
 	menu
 while(($num!=3))
-	if(($inp=="1"))
+do
+	if(($num=="1"))
         then
                 echo "please enter file name:"
                 read filename
                 sudo touch $filename
-                ls -lah
-
-do
+                sleep 2
+		menu
+	elif(($num=="2"))
+	then
+		ls -lah
+		sleep 3
+		menu
+	fi
 done
