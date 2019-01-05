@@ -11,7 +11,7 @@ while(($num!=3))
 do
 	if(($num=="1"))
         then
-                echo "please enter file name:"
+                echo "please enter file name: "
                 read filename
                 sudo touch $filename
                 sleep 2
