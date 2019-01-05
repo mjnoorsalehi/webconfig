@@ -1,3 +1,5 @@
+#this is fo test
+
 	menu() {
 	echo "1.creat file"
 	echo "2.list of file"
